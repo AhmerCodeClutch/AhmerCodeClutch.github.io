@@ -534,9 +534,7 @@ body.light hr.separator {
 
 /*** Homepage ***/
 
-.videocontainer img {
-  margin-right: 10px; /* Adjust the value based on the desired gap size */
-}
+
 
 .home .color-block {
   position: fixed;
