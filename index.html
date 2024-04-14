@@ -106,9 +106,12 @@
         <div class="col-lg-4 bg position-fixed d-none d-lg-block"></div>
         <div class="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
             <div>
-                <img src="img/mob.jpeg" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none" alt="Ahmer's picture">
+                <!-- Image for mobile -->
+                <img src="img/mob.jpeg" class="img-fluid main-img-mobile d-block d-sm-none" alt="Ahmer's picture">
+                <!-- Image for desktop -->
+                <img src="img/2.jpeg" class="img-fluid main-img-desktop d-none d-sm-block" alt="Ahmer's picture">
                 <h1 class="text-uppercase poppins-font">I'm Ahmer Bin Faheem.<span>Game Developer</span></h1>
-                <p class="open-sans-font">I'm a Pakistan based game developer, I bring ideas to life through the language of code. From captivating gameplay mechanics to seamless user experiences.</p>
+                <p class="open-sans-font">I'm a Pakistan-based game developer, I bring ideas to life through the language of code. From captivating gameplay mechanics to seamless user experiences.</p>
                 <a class="button" href="about.html">
                     <span class="button-text">more about me</span>
                     <span class="button-icon fa fa-arrow-right"></span>
@@ -117,6 +120,23 @@
         </div>
     </div>
 </section>
+
+<style>
+    /* Media query for mobile screens */
+    @media (max-width: 767px) {
+        .main-img-desktop {
+            display: none; /* Hide desktop image on mobile */
+        }
+    }
+
+    /* Media query for desktop screens */
+    @media (min-width: 768px) {
+        .main-img-mobile {
+            display: none; /* Hide mobile image on desktop */
+        }
+    }
+</style>
+
 <!-- Main Content Ends -->
 
 <!-- Template JS Files -->
