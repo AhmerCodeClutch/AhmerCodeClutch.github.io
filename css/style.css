@@ -1624,6 +1624,13 @@ body.light hr.separator {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .main-img-mobile {
+    display: none;
+  }
+}
+
+
 @media (max-width: 576px) {
 
   body {
