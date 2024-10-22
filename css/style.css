@@ -43,6 +43,27 @@ Version: 1.0
 
 /*** Miscellaneous ***/
 
+.skill-logo {
+  width: 80px; /* Adjust size as needed */
+  height: 80px;
+  object-fit: contain; /* Ensures image stays within the bounds */
+  margin: 0 auto; /* Centers the image horizontally */
+  display: block;
+  transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.skill-logo:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+
+
 html {
   overflow-x: hidden;
   height: 100%;
