@@ -1524,6 +1524,18 @@ body.light hr.separator {
     font-weight: 400;
   }
 
+  /* Hide the image by default */
+.main-img-mobile {
+  display: none;
+}
+
+/* Show the image only on mobile devices (small screens) */
+@media (max-width: 768px) {
+  .main-img-mobile {
+      display: block;
+  }
+}
+
   .portfolio .grid li {
     width: 50%;
   }
