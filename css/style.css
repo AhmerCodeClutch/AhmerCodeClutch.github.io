@@ -1524,18 +1524,17 @@ body.light hr.separator {
     font-weight: 400;
   }
 
-  /* Hide the image by default */
-/* Hide the mobile image by default */
+/* Circular styling for mobile image */
 .main-img-mobile {
-  display: none;
-  width: 150px;           /* Adjust size to fit nicely in a circle */
-  height: 150px;          /* Adjust size to fit nicely in a circle */
-  object-fit: cover;      /* Ensure the image fills the circle without distortion */
-  border-radius: 50%;     /* Make the image circular */
-  margin: 20px auto;      /* Center the image with spacing */
+  width: 150px;            /* Adjust size for circular display */
+  height: 150px;           /* Same width and height to form a circle */
+  object-fit: cover;       /* Ensure image covers the frame properly */
+  border-radius: 50%;      /* Circular frame */
+  margin: 20px auto;       /* Center the image */
+  display: none;           /* Hide by default */
 }
 
-/* Show the image only on mobile (small screens) */
+/* Display the image only on mobile screens (up to 768px) */
 @media (max-width: 768px) {
   .main-img-mobile {
       display: block;
