@@ -1525,11 +1525,17 @@ body.light hr.separator {
   }
 
   /* Hide the image by default */
+/* Hide the mobile image by default */
 .main-img-mobile {
   display: none;
+  width: 150px;           /* Adjust size to fit nicely in a circle */
+  height: 150px;          /* Adjust size to fit nicely in a circle */
+  object-fit: cover;      /* Ensure the image fills the circle without distortion */
+  border-radius: 50%;     /* Make the image circular */
+  margin: 20px auto;      /* Center the image with spacing */
 }
 
-/* Show the image only on mobile devices (small screens) */
+/* Show the image only on mobile (small screens) */
 @media (max-width: 768px) {
   .main-img-mobile {
       display: block;
