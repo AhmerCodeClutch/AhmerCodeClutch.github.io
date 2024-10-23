@@ -1523,6 +1523,10 @@ body.light hr.separator {
     left: 50px;
     font-weight: 400;
   }
+/* Hide the image by default */
+.main-img-mobile {
+  display: none;
+}
 
 /* Circular styling for mobile image */
 .main-img-mobile {
