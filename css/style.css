@@ -1524,22 +1524,7 @@ body.light hr.separator {
     font-weight: 400;
   }
 
-/* Circular styling for mobile image */
-.main-img-mobile {
-  width: 150px;            /* Adjust size for circular display */
-  height: 150px;           /* Same width and height to form a circle */
-  object-fit: cover;       /* Ensure image covers the frame properly */
-  border-radius: 50%;      /* Circular frame */
-  margin: 20px auto;       /* Center the image */
-  display: none;           /* Hide by default */
-}
 
-/* Display the image only on mobile screens (up to 768px) */
-@media (max-width: 768px) {
-  .main-img-mobile {
-      display: block;
-  }
-}
 
   .portfolio .grid li {
     width: 50%;
