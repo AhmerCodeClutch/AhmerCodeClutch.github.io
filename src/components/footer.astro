@@ -1,0 +1,70 @@
+
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="w-full py-10 border-t border-[#ffffff10]">
+  <div class="max-w-5xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+
+      <!-- Social Links -->
+      <div class="flex flex-col items-center md:items-start gap-6">
+        <h3 class="text-[var(--white)] text-lg font-medium">
+          Let's Connect
+        </h3>
+
+        <div class="flex items-center gap-8">
+          <a
+            href="https://github.com/YOUR_GITHUB_USERNAME"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+            class="text-[var(--white-icon)] hover:text-[var(--white)] transition"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            class="text-[var(--white-icon)] hover:text-[var(--white)] transition"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            href="mailto:YOUR_EMAIL@example.com"
+            aria-label="Email"
+            class="text-[var(--white-icon)] hover:text-[var(--white)] transition"
+          >
+            Email
+          </a>
+        </div>
+      </div>
+
+      <!-- Spotify Music Player -->
+      <div class="w-full max-w-sm mx-auto md:ml-auto md:mr-0">
+        <iframe
+          style="border-radius:12px; border:0;"
+          src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M?utm_source=generator&theme=0"
+          class="w-full h-40"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+          title="Spotify Playlist"
+        ></iframe>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="mt-10 pt-6 border-t border-[#ffffff10]">
+      <p class="text-center text-sm text-[var(--white-icon)]">
+        © {currentYear}   Ahmer Bin Faheem.
+      </p>
+    </div>
+
+  </div>
+</footer>
